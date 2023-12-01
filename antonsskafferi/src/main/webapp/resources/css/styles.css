@@ -20,6 +20,7 @@ h1 {
     min-height: 150px;
     border-color: black;
     font-size: xxx-large;
+    border-radius: 20px;
 }
 
 #homeButtonDiv {
