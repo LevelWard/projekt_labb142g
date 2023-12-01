@@ -24,6 +24,7 @@ h1 {
 }
 
 #homeButtonDiv {
+    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
     min-height: 100px;
