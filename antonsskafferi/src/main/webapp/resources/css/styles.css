@@ -1,0 +1,43 @@
+:root{
+    --antonGray: rgb(35,35,35);
+}
+
+body {
+    margin: 0;
+    background-color: var(--antonGray);
+    max-width: 1200px;
+}
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.StartButton {
+    min-width: 300px;
+    min-height: 150px;
+    border-color: black;
+    font-size: xxx-large;
+}
+
+#homeButtonDiv {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100px;
+}
+
+#kitchenButton {
+    background-image: linear-gradient(to bottom, rgb(100, 215, 115), white );
+}
+#bookingsButton {
+    background-image: linear-gradient(to bottom, rgb(255, 138, 0), white );
+}
+#orderingButton {
+    background-image: linear-gradient(to bottom, rgb(161, 215, 233), white );
+}
+
+#startImage {
+    width: 100%;
+}
