@@ -73,6 +73,7 @@ h1 {
 }
 
 #kitchenOverviewBack {
+    width: 94%;
     margin: 3%;
     border-style: solid;
     border-color: red;
