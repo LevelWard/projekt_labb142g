@@ -1,6 +1,11 @@
+:root{
+    --antonGray: rgb(35,35,35);
+}
+
 body {
     margin: 0;
-    background-color: rgb(35,35,35);
+    background-color: var(--antonGray);
+    max-width: 1200px;
 }
 p {
     color: white;
@@ -11,17 +16,28 @@ h1 {
 }
 
 .StartButton {
-    min-width: 260px;
-    min-height: 130px;
+    min-width: 300px;
+    min-height: 150px;
     border-color: black;
-
+    font-size: xxx-large;
 }
 
 #homeButtonDiv {
-    margin: 5%;
     display: flex;
     justify-content: space-evenly;
     min-height: 100px;
+}
 
+#kitchenButton {
+    background-image: linear-gradient(to bottom, rgb(100, 215, 115), white );
+}
+#bookingsButton {
+    background-image: linear-gradient(to bottom, rgb(255, 138, 0), white );
+}
+#orderingButton {
+    background-image: linear-gradient(to bottom, rgb(161, 215, 233), white );
+}
 
+#startImage {
+    width: 100%;
 }
