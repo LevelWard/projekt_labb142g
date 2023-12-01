@@ -8,13 +8,10 @@
 
         <h:graphicImage library="images" name="startPagePhoto.png"/>
 
-        <!--
-        <h:outputLink value="kitchenOverview.xhtml">Kitchen</h:outputLink>
-        <h:outputLink value="orderOverview.xhtml">Waitor</h:outputLink>
-        <h:outputLink value="bookingsCalendar.xhtml">Bookings</h:outputLink>
-        -->
-
-        <ui:include src="includes/footer.xhtml"/>
-
+        <div id="homeButtonDiv">
+            <h:button styleClass="StartButton" id="kitchenButton" value="Kitchen" outcome="kitchenOverview" />
+            <h:button styleClass="StartButton" id="bookingsButton" value="Bookings" outcome="orderOverview" />
+            <h:button styleClass="StartButton" id="orderingButton" value="Ordering" outcome="bookingCalendar" />
+        </div>
     </ui:define>
 </ui:composition>
