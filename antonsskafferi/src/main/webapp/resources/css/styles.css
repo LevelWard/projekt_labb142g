@@ -2,10 +2,13 @@
     --antonGray: rgb(35,35,35);
 }
 
+html {
+    max-width: 1200px;
+}
+
 body {
     margin: 0;
     background-color: var(--antonGray);
-    max-width: 1200px;
 }
 p {
     color: white;
@@ -20,9 +23,19 @@ h1 {
     min-height: 150px;
     border-color: black;
     font-size: xxx-large;
+    border-radius: 20px;
+}
+
+.BackButton {
+    min-width: 300px;
+    min-height: 100px;
+    background-color: rgb(189,189,189);
+    margin: 3%;
+    font-size: xx-large;
 }
 
 #homeButtonDiv {
+    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
     min-height: 100px;
@@ -40,4 +53,28 @@ h1 {
 
 #startImage {
     width: 100%;
+}
+
+#versionText {
+    margin: 3%;
+    color: white;
+    font-family: fantasy;
+    font-size: large;
+    text-decoration: underline;
+
+}
+
+#kitchenOverviewContent {
+    width: 94%;
+    min-height: 550px;
+    border-style: solid;
+    border-color: white;
+    margin: 3%;
+}
+
+#kitchenOverviewBack {
+    width: 94%;
+    margin: 3%;
+    border-style: solid;
+    border-color: white;
 }
