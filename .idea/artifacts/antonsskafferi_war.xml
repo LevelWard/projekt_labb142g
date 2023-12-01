@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" external-system-id="Maven" name="antonsskafferi:war">
+    <output-path>$PROJECT_DIR$/antonsskafferi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>antonsskafferi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="antonsskafferi-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="antonsskafferi:war exploded" />
+    </root>
+  </artifact>
+</component>
