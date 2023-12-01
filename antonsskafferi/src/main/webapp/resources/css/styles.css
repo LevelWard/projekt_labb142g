@@ -43,3 +43,14 @@ h1 {
 #startImage {
     width: 100%;
 }
+
+#versionText {
+    color: white;
+    font-family: fantasy;
+    font-size: large;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-decoration: underline;
+
+}
