@@ -1,14 +1,16 @@
 body{
     background-color: rgb(128, 128, 128);
 }
-
+#orders #order_details{
+    list-style-type: none;
+    background-color: white;
+}
 #delete{
     background-color: darkred;
 }
-#add{
-    background-color: darkgreen;
+#customize{
+    background-color: darkgoldenrod;
 }
-#add_drink{
-    background-color: dodgerblue;
-    color: darkred;
+form button{
+    background-color: purple;
 }

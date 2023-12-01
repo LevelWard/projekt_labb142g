@@ -15,7 +15,7 @@
     <h:outputStylesheet library="css" name="styles.css"/>
 
     <div>
-        <h:form>
+        <h:form id="ordering">
             <label for="table">Table</label>
             <select id="table">
                 <option>1</option>
@@ -25,16 +25,20 @@
                 <option>5</option>
                 <option>6</option>
             </select>
-            <ul>
+            <ol id="orders">
                 <li>
-                    <p>Pasta Alfredo</p>
-                    <p>Water</p>
-                    <button id="delete">Remove</button>
-                    <button id="customzie">Customize</button>
+                    <ul id="order_details">
+                        <li>Pasta Alfredo</li>
+                        <li>Water</li>
+                        <li>
+                            <button id="delete">Remove</button>
+                            <button id="customize">Customize</button>
+                        </li>
+                    </ul>
                 </li>
-            </ul>
-            <h:button id="add">Add</h:button>
-            <h:button id="add_drink">Add drink</h:button>
+            </ol>
+            <h:button id="add" value="Add"> </h:button>
+            <h:button id="add_drink" value="Add drink"> </h:button>
         </h:form>
     </div>
 </h:body>
