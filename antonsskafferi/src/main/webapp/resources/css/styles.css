@@ -68,7 +68,7 @@ h1 {
     width: 94%;
     min-height: 550px;
     border-style: solid;
-    border-color: red;
+    border-color: white;
     margin: 3%;
 }
 
@@ -76,5 +76,5 @@ h1 {
     width: 94%;
     margin: 3%;
     border-style: solid;
-    border-color: red;
+    border-color: white;
 }
