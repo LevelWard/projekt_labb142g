@@ -5,7 +5,37 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
-    <h:outputLabel value="Hello, world"/>
-</f:view>
+
+
+<!-- As a reminder on how to comment -->
+<h:head>
+    <title>Initial commit</title>
+</h:head>
+<h:body>
+    <h:outputStylesheet library="css" name="styles.css"/>
+
+    <div>
+        <h:form>
+            <label for="table">Table</label>
+            <select id="table">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+            <ul>
+                <li>
+                    <p>Pasta Alfredo</p>
+                    <p>Water</p>
+                    <button id="delete">Remove</button>
+                    <button id="customzie">Customize</button>
+                </li>
+            </ul>
+            <h:button id="add">Add</h:button>
+            <h:button id="add_drink">Add drink</h:button>
+        </h:form>
+    </div>
+</h:body>
 </html>

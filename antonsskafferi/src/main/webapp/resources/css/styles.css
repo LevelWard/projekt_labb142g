@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+
+#delete{
+    background-color: darkred;
+}
+#add{
+    background-color: darkgreen;
+}
+#add_drink{
+    background-color: dodgerblue;
+    color: darkred;
+}
