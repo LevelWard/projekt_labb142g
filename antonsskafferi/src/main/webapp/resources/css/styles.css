@@ -2,10 +2,13 @@
     --antonGray: rgb(35,35,35);
 }
 
+html {
+    max-width: 1200px;
+}
+
 body {
     margin: 0;
     background-color: var(--antonGray);
-    max-width: 1200px;
 }
 p {
     color: white;
@@ -21,6 +24,14 @@ h1 {
     border-color: black;
     font-size: xxx-large;
     border-radius: 20px;
+}
+
+.BackButton {
+    min-width: 300px;
+    min-height: 100px;
+    background-color: rgb(189,189,189);
+    margin: 3%;
+    font-size: xx-large;
 }
 
 #homeButtonDiv {
@@ -45,12 +56,24 @@ h1 {
 }
 
 #versionText {
+    margin: 3%;
     color: white;
     font-family: fantasy;
     font-size: large;
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
     text-decoration: underline;
 
+}
+
+#kitchenOverviewContent {
+    width: 94%;
+    min-height: 550px;
+    border-style: solid;
+    border-color: red;
+    margin: 3%;
+}
+
+#kitchenOverviewBack {
+    margin: 3%;
+    border-style: solid;
+    border-color: red;
 }
