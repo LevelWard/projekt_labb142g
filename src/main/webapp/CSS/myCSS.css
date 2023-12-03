@@ -1,9 +1,17 @@
 body {
     margin: 0;
     min-height:100vh; /*minimum page height*/
-    display:grid;
-    grid-template-rows: auto 1fr;
     font-family: Arial, Helvetica, sans-serif;
+}
+body.index{
+     display:grid;
+     grid-template-rows: auto 1fr 1fr 1fr 1fr;
+     background-color: #3a1313;
+ }
+body.a_la_carte{
+    display:grid;
+    grid-template-rows: auto 1fr; /*only on a la carte*/
+    background-color: #3a1313;
 }
 
 .topnav {
@@ -27,9 +35,7 @@ body {
     font-size: 17px;
     display: block;
 }
-body.index {
-    background-color: #3a1313;
-}
+
 
 .topnav a:hover {
     background-color: #ddd;
@@ -114,4 +120,52 @@ body.index {
 
     border-top-right-radius: 4vw;
     border-bottom-right-radius: 4vw;
+}
+
+#musicue{
+    background-color: #3a1313;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 0 5vh;
+
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#left_containing_songs{
+    background-color: #c42f2f;
+
+    height: auto;
+    width: auto;
+
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+}
+
+#right_containing_musician_image{
+    background-color: #dc6060;
+
+    height: auto;
+    width: auto;
+
+
+}
+
+#book_table{
+    background-color: #dc6060;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 5vw 5vh 5vw;
+
+    border-radius: 4vw;
+}
+
+#contacts{
+    background-color: #dc6060;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 5vw 5vh 5vw;
 }
