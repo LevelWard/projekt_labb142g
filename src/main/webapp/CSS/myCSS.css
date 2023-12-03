@@ -8,7 +8,7 @@ body {
 }
 body.index{
      display:grid;
-     grid-template-rows: auto 1fr 1fr 1fr 0.10fr 1fr ;
+     grid-template-rows: auto 1fr 1fr 0.5fr 0.10fr 1fr ;
      background-color: #3a1313;
  }
 body.a_la_carte{
@@ -109,14 +109,14 @@ body.a_la_carte{
     grid-template-columns: 3fr 1fr;
 }
 #right_containing_menu{
-    background-color: #c42f2f;
+    background-color: #380b0b;
 
     height: auto;
     width: auto;
 }
 
 #left_containing_whine{
-    background-color: #dc6060;
+    background-color: #210505;
 
     height: auto;
     width: auto;
@@ -137,7 +137,7 @@ body.a_la_carte{
 }
 
 #left_containing_songs{
-    background-color: #c42f2f;
+    background-color: #380b0b;
 
     height: auto;
     width: auto;
@@ -147,7 +147,7 @@ body.a_la_carte{
 }
 
 #right_containing_musician_image{
-    background-color: #dc6060;
+    background-color: #210505;
 
     height: auto;
     width: auto;
@@ -255,6 +255,11 @@ hr{
 }
 
 #company_title_textbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#title_menu{
     display:flex;
     justify-content: center;
     align-items: center;
