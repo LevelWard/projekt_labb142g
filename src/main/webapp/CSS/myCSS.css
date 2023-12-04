@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    min-height:100vh; /*minimum page height*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: #f2f2f2;
+}
+body.index{
+     display:grid;
+     grid-template-rows: auto 1fr 1fr 0.5fr 0.10fr 1fr ;
+     background-color: #3a1313;
+ }
+body.a_la_carte{
+    display:grid;
+    grid-template-rows: auto 1fr; /*only on a la carte*/
+    background-color: #3a1313;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #210505;
+    display: flex;
+    align-items: center;
+}
+
+.topnav img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #f2f2f2;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #e80707;
+}
+
+.topnav a.active {
+    background-color: #210505;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.home-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-content img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.welcome-text {
+    color: #f4f4f8;
+}
+
+.all-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+.text-box {
+    flex-grow: 1;
+    background-color: #210505;
+    color: #f4f4f8;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.text-box2 {
+    margin: auto;
+    width: 50%;
+    background-color: #210505;
+    color: #f4f4f8;
+    padding: 10px;;
+}
+
+#centre_a_la_carte{
+    background-color: #3a1313;
+
+    height: auto;
+    width: auto;
+    margin: 10vh 15vw 10vh;
+
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+#right_containing_menu{
+    background-color: #380b0b;
+
+    height: auto;
+    width: auto;
+}
+
+#left_containing_whine{
+    background-color: #210505;
+
+    height: auto;
+    width: auto;
+
+    border-top-right-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+}
+
+#musicue{
+    background-color: #3a1313;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 0 5vh;
+
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#left_containing_songs{
+    background-color: #380b0b;
+
+    height: auto;
+    width: auto;
+
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+}
+
+#right_containing_musician_image{
+    background-color: #210505;
+
+    height: auto;
+    width: auto;
+
+
+}
+
+#book_table{
+    background-color: #210505;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 5vw 1vh 5vw;
+    padding: 1vh 1vw;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    border-radius: 4vw;
+}
+
+#contacts{
+    background-color: #3a1313;
+
+    height: auto;
+    width: auto;
+    margin: 5vh 5vw 5vh 5vw;
+
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+#Form_teaser{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form-control { margin-bottom: 5px; }
+
+.btn {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 1em 0 1em;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    border-radius: .25rem;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D07E00;
+}
+.btn:hover {
+    background-color: #802D00;
+}
+
+select {
+    padding: 5px;
+    border-radius: .25rem;
+    border: 1px solid #ccc;
+    height: 35px;
+    margin-left: 5px;
+}
+
+#booking_legal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#red_bar{
+    border-top: 0.5vh solid rgba(151, 36, 36, 1);
+}
+#green_bar{
+    border-top: 0.5vh solid rgba(76, 96, 85, 1);
+}
+#content_under_red_bar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    padding: 2vh 3vw;
+}
+#company_title{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    padding: 2vh 3vw;
+}
+#orange_bar{
+    border-right: 0.25vh solid rgba(188, 94, 6, 1);
+    border-left: 0.25vh solid rgba(188, 94, 6, 1);
+}
+
+#grey_bar{
+    border-top: 0.5vh solid rgba(93, 90, 90, 1);
+}
+
+#company_title_textbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#title_menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
