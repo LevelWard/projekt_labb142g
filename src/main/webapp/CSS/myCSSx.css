@@ -263,5 +263,84 @@ hr{
     display:flex;
     justify-content: center;
     align-items: center;
+
+    color: #171515;
+}
+#title_whine{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right_containing_menu{
+    background-image: url("bild1.jpg");
+    background-size: 100%;
+
+    padding: 3vh 3vw;
+}
+
+#semi_transparent_box{
+    background-color: rgba(31,25,25,0.35);
+
+    width: auto;
+    height: 100%;
+
+}
+
+#cluster_of_selections_menu{
+    width: auto;
+    height: auto;
+    padding: 0 1vw 1vh 1vw;
+}
+
+#menu{
+    width: auto;
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+#vertical_cluster{
+    width: auto;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.food_card {
+    width: auto;
+    height: auto;
+
+    border-radius: 0 119px 119px 0;
+    background: linear-gradient(90deg, #100F0F 0%, #211A1A 100%);
+
+}
+
+#varmratt_efteratt_cluster{
+    width: auto;
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 2vh;
+
+    padding: 0 1vw;
+}
+
+.Type_entree_font{
+    color: #FFF;
+    vertical-align: center;
+    font-family: Inika, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2vh; /* 281.25% */
+}
+
+#extend_zone_when_booked{
+    width: auto;
+    height: 50%; /*default*/
 }
 

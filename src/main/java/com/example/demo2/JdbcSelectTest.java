@@ -7,7 +7,7 @@ import java.net.URLConnection;
 //import org.json.JSONObject; For later
 
 import java.sql.*;  // Using 'Connection', 'Statement' and 'ResultSet' classes in java.sql package
-/*
+
 public class JdbcSelectTest {   // Save as "JdbcSelectTest.java"
     public static void main(String[] args) {
         try (
@@ -47,7 +47,7 @@ public class JdbcSelectTest {   // Save as "JdbcSelectTest.java"
                 ++rowCount;
             }
             System.out.println("Total number of records = " + rowCount);
-
+            */
 
 
         } catch(SQLException ex) {
@@ -55,4 +55,4 @@ public class JdbcSelectTest {   // Save as "JdbcSelectTest.java"
         }  // Step 5: Close conn and stmt - Done automatically by try-with-resources (JDK 7)
     }
 }
-*/
+
