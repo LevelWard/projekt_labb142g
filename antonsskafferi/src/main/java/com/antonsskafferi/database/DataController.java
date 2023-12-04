@@ -10,19 +10,20 @@ import jakarta.inject.Named;
 import javax.sql.DataSource;
 import javax.xml.crypto.Data;
 import java.sql.*;
+import java.util.List;
 
 
 @RequestScoped
 @Named
 public class DataController {
 
-    private Database db = new Database();
-
+    @Inject
+    Database db;
     public DataController(){
 
     }
 
-    public String getTest() {
-        return db.getStatus();
+    public List<BooksEntity> getTest() {
+        return db.getBooks();
     }
 }

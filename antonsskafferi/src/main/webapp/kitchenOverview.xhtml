@@ -7,6 +7,11 @@
     <ui:define name="content">
         <div id="kitchenOverviewContent">
             <p>#{kitchenHandler.getDishName()}</p>
+            <ui:repeat value="#{dataController.getTest()}" var="values">
+                <p>
+                    #{values.title}
+                </p>
+            </ui:repeat>
             <p>#{dataController.getTest()}</p>
         </div>
         <div id="kitchenOverviewBack">
